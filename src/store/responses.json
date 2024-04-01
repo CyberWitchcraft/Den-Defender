@@ -1,0 +1,10 @@
+{
+    "1": {
+        "01-01": ["Laptop","Tablet","Smartphone"],
+        "01-02": ["Windows","Mac/OSX","Chromebook","Linux"]
+    },
+    "2": {
+        "02-01": ["Yes","No"],
+        "02-02": ["Yes","No"]
+    }
+}

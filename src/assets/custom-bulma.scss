@@ -1,0 +1,34 @@
+@use "sass:color";
+
+// Set your brand colors
+$orange-brand: #fa5b05;
+$navy-brand: #15133c;
+$white-brand: #e7e7e7;
+$blue-brand: #4e5984;
+$grey-brand: #2b303a;
+$yellow-brand: #ffb852;
+$danger-override: #bd3636;
+
+// Path to Bulma's sass folder
+@use "bulma/sass" with (
+  $family-primary: 'Poppins, sans-serif',
+  $family-secondary: 'Signika, sans-serif',
+  $family-code: 'Abel, monospace',
+  $primary: $orange-brand,
+  $text: $white-brand,
+  $info: $white-brand,
+  $link: $blue-brand,
+  $success: $yellow-brand,
+  $warning: $navy-brand,
+  $danger: $danger-override,
+  // Custom Box Variables
+  $box-background-color: $navy-brand,
+  // Custom Card Variables
+  $card-header-color: $orange-brand,
+  $card-color: $white-brand
+);
+
+// Import the Google Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
