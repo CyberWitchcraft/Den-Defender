@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-info">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https:4fox.uk">
+      <a class="navbar-item" href="/">
         <img alt="4FOX logo" src="@/assets/smallicon.png">
       </a>
       <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
@@ -14,8 +14,7 @@
     <div class="navbar-menu title is-6">
       <router-link class='navbar-item' to="/"><icon class="material-icons">cottage</icon> Den Defender</router-link> |
       <router-link class='navbar-item' to="/about"><icon class="material-icons">info</icon>About</router-link> |
-      <a class='navbar-item'><icon class="material-icons">settings</icon>Settings</a> |
-      <a class='navbar-item'><icon class="material-icons">hiking</icon>Return to 4FOX</a>
+      <a class='navbar-item' href="https://4fox.uk"><icon class="material-icons">hiking</icon>Return to 4FOX</a>
     </div>
   </nav>
   <router-view/>

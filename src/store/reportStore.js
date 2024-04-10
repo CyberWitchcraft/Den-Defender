@@ -14,7 +14,7 @@ export const useReportStore = defineStore("reportStore", {
         '01-02-02': {
           category: 'immediate',
           title: 'Bookmark key advice sites',
-          desc: 'Use the following links to bookmark great cybersecurity resources. If you ever need a reference point, you will have it to hand!'
+          desc: `Use the following links to bookmark great cybersecurity resources. If you ever need a reference point, you will have it to hand!`
         },
         '01-03-02': {
           category: 'immediate',
