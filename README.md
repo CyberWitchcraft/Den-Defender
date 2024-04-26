@@ -26,6 +26,11 @@ npm run start
 npm run build
 ```
 
+#### Push release to separate branch for pages
+```
+npm run deploy
+```
+
 #### Lints and fixes files
 ```
 npm run lint
