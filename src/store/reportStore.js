@@ -14,12 +14,12 @@ export const useReportStore = defineStore("reportStore", {
         '01-02-02': {
           category: 'immediate',
           title: 'Bookmark key advice sites',
-          desc: `Use the following links to bookmark great cybersecurity resources. If you ever need a reference point, you will have it to hand!`
+          desc: `Bookmark our resources page to refer to for some great resources, or use the links to create specific bookmarks. If you need help or support, you can quickly find them again! https://4fox.uk/resources`
         },
         '01-03-02': {
           category: 'immediate',
-          title: 'Bookmark key reporting sites',
-          desc: 'If you bookmark the following sites, you can use these in the event of a suspicious email or SMS and know how to report it'
+          title: 'Bookmark key phishing reporting sites',
+          desc: 'The following link will take you to Action Fraud, and explain how you can report suspicious emails and SMS. Bookmark it for next time, so you can quickly refer to it if you need to. https://www.actionfraud.police.uk/report-phishing'
         },
         '02-01-02': {
           category: 'long',
